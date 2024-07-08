@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 function Ai() {
-  const genAi = new GoogleGenerativeAI("AIzaSyCkMAxB-g76kfLKtCVhf9hd_Va81XBCDEE");
+  const genAi = new GoogleGenerativeAI("GEMINI_API_KEY");
 
   const [search, setSearch] = useState("");
   const [messages, setMessages] = useState([]);
